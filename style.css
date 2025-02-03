@@ -3,6 +3,7 @@ body, html {
   padding: 0;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
+  
 }
 
 .gaan-header{
@@ -13,16 +14,11 @@ body, html {
   font-size: 18px;
 }
 
-/* HERO SECTION */
-/* .carousel-item {
-  height: 100vh; 
-  margin-top: 0;
-}
-.carousel-item img {
-  object-fit: cover;
-  height: 100%;
-} */
+/* Hero Section */
 
+.hero{
+  padding-top: 4.9rem;
+}
 .hero-content h1 {
   font-size: 4vw; 
 }
@@ -126,14 +122,21 @@ body, html {
       position: absolute;
   }
 
+  .carousel-caption{
+    right: 73%;
+    top: 10vh;
+  }
+
   /* Ensure the text remains readable */
   .mybtn {
       background: #fff;
       color: #0A0CC3;
       padding: 10px 20px;
       position: relative;
-      top: 27rem;
-      left: 13rem;
+      /* top: 27rem;
+      left: 13rem; */
+
+      top: 50%;
   }
 
   .mybtn:hover{
